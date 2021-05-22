@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+.account__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'KoHo', sans-serif;
+}
+
+.login__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 50vh;
+    box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.login__body  input{
+    margin: 10px;
+    margin-top: 0px;
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+.uploadPhoto {
+    margin: 10px;
+    margin-top: 0px;
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'KoHo', sans-serif;
+
+}
+
+.login__body img {
+    margin-top: 0;
+    height: 100px;
+}
+
+.login__button{
+    margin-top: 20px;
+    font-family: 'KoHo', sans-serif;
+    
+}
+
+.google__button{
+    font-size: x-small;
+    margin-top: 30px;
+    font-family: 'KoHo', sans-serif;
+}
+
+.google__button img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.buttons{
+    margin-top: 5vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .login__body{
+        height: 50vh;
+        width: 35vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+  }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+.chat{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #fafafa;
+    font-family: 'KoHo', sans-serif;
+}
+
+.chat:hover{
+    background-color: rgb(241, 238, 238);
+}
+
+.chat__details{
+    flex: 1;
+    margin-left: 20px;
+    color: black;
+}
+
+.chat__details h2{
+    font-size: medium;
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.chat__details p{
+    margin-top: 1px;
+    font-size: 11px;
+    color: gray;
+}
+
+.chat__timestamp{
+    font-size: 11px;
+    color: lightgray;
+}

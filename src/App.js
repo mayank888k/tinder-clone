@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import { Route, Switch,} from 'react-router-dom';
 import './App.css';
+import Account from './components/Account';
+import Chats from './components/Chats';
+import ChatScreen from './components/ChatScreen';
+import Header from './components/Header'
+import SwipeButtons from './components/SwipeButtons';
+import TinderCards from './components/TinderCards'
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Switch>
+
+        <Route exact path="/">
+          <Header />
+          <TinderCards />
+          <SwipeButtons />
+        </Route>
+
+        <Route exact path='/chats'>
+          <Header backButton="/" />
+          <Chats />
+        </Route>
+
+        <Route exact path='/chatscreen/:peopleId'>
+          <ChatScreen />
+        </Route>
+        <Route exact path="/Account">
+          <Header backButton="/" />
+          <Account />
+        </Route>
+
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.swipeButtons{
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.swipe__shadow{
+    box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.swipe__Heart{
+    position: absolute;
+    bottom: -32px;
+}
