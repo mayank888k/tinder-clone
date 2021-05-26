@@ -9,4 +9,14 @@
 
 ## App Preview
 
-![tinder]()
+![tinder](Screenshot1.jpg)
+--- 
+
+![tinder](Screenshot2.jpg)
+--- 
+
+![tinder](Screenshot3.jpg)
+---
+
+![tinder](Screenshot4.jpg)
+---
